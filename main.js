@@ -12,7 +12,7 @@ var unrevealed = "#003A69";
 var revealed = "#004F82";
 var zero = "#106094";
 var mineRed = "#DB1F1F";
-var mineImage = "url(images/Mine_Icon.png)";
+var mineImage = "url(img/Mine_Icon.png)";
 
 
 /* Game models. */

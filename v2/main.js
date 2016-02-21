@@ -91,6 +91,7 @@ function Show(cell) {
             cell.style.backgroundColor = mineRed;
             cell.style.backgroundSize = "100% 100%";
             cell.style.textShadow = "none";
+            spacesLeft++;
         }
         else {
             cell.style.color = numbers[Math.min(4,img)];
@@ -110,22 +111,6 @@ function Show(cell) {
     }
 };
 
-// When a key is pressed?
-function HandleKeyPress(event) {
-    // console.log(event); 
-    switch (event.charCode) {
-        case 68: // D for Debug
-            Debug();
-            break ;
-
-        case 102: // F
-      // Toggle flag on/off.
-            break ;
-    }
-};
-
-document.onkeypress = HandleKeyPress ;
-  
 // Generates the board
 function generateBoard() {
     // clears board

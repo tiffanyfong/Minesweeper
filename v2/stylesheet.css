@@ -1,8 +1,8 @@
 html {
 	background-image: url(img/Underwater_Mines.jpg);
 	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+	background-repeat: no-repeat;
+	background-position: center center;
 	color: #F0F0F0;
 	text-align: center;
 	font-family: monospace;
@@ -15,13 +15,13 @@ html {
 
 table#board td {
 	color: black;
-    text-align: center;
-    font-family: Arial;
-    font-weight: bold;
-    width: 28px;
-    height: 28px;
-    border: 1px solid #CFCFCF;
-    font-size: 20px;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	width: 28px;
+	height: 28px;
+	border: 1px solid #CFCFCF;
+	font-size: 20px;
 }
 
 h1 {
@@ -40,7 +40,3 @@ h1 {
 	color: #DBDBDB;
 	font-size: 24px;
 }
-
-
-/* http://il3.picdn.net/shutterstock/videos/3633221/thumb/1.jpg */
-/* http://freecog.net/2005/minesweeper/icon-large.png */

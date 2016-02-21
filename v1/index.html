@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minesweeper</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  </head>
+
+<body id="body">
+    <h1>MINESWEEPER</h1>
+    <p id="message">Avoid the mines</p>
+    <center>
+      <div class="customize">
+        <form>
+          <label for="rows">Rows</label>
+          <input class="customize" type="number" id="rows" value="8" min="8" max="20">
+          <br>
+          <label for="columns">Columns</label>
+          <input class="customize" type="number" id="columns" value="8" min="8" max="20">
+          <br>
+          <label for="mines">Mines</label>
+          <input class="customize" type="number" id="mines" value="8" min="8" max="100">
+        </form>
+      </div>
+      <button type="button" id="start">New Game</button> <br><br>
+      <table id="board">
+      </table>
+      <p id="spaces"></p>
+    </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

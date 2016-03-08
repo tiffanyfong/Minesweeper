@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Minesweeper</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+
+	<body>
+		<h1>MINESWEEPER</h1>
+		<p id="message">Avoid the mines</p>
+
+		<div id="rulesBox" class="box">
+			<p class="subheading"> Rules </p>
+			<p> Click on a mine, and the game ends. </p>
+			<p> Uncover a number (or an empty cell) to keep playing, but beware of the surrounding mines. </p>
+			<p> To place or remove flags, hold the shift key and click.</p>
+			<br>
+			<p class="subheading"> Custom Boards </p>
+			<p> You can make custom boards within these boundaries: </p>
+			<p> 8-20 Rows, 8-20 Columns, and the mines must not exceed 1/4 of the total number of cells. </p>
+		</div>
+
+		<center>
+			<form id="customize">
+				<label for="rows">Rows</label>
+					<input class="customize" type="number" id="rows" value="8" min="8" max="20">
+					<br>
+				<label for="columns">Columns</label>
+					<input class="customize" type="number" id="columns" value="8" min="8" max="20">
+					<br>
+				<label for="mines">Mines</label>
+					<input class="customize" type="number" id="mines" value="8" min="8" max="100">
+			</form>
+			<br>
+			<button type="button" id="start">New Game</button> 
+			<br><br><br><br><br>
+
+			<div id="spacesBox" class="box">
+				<p id="spaces"></p>
+			</div>
+
+			<div id="timerBox" class="box">
+				<p id="time">0</p>
+			</div>
+
+			<table id="board"></table>
+			<br><br>
+			<p id="footer"> Created by T Fong in 2016</p>
+		</center>
+								
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

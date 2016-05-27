@@ -1,6 +1,6 @@
 # Minesweeper
 
-# No longer being updated regularly
+<strong>No longer being updated regularly</strong>
 
 CS189 First Half Project. <br>
 Goal: Create a functional and good-looking Minesweeper game using HTML, CSS, and Javascript. <br>
